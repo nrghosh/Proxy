@@ -65,20 +65,6 @@ def main():
     proxy_port = 50007
 
 # NOTE: If a date is not found, it will not be cached (you'll keep getting 200 OK responses)
-    #url = 'www.wesleyan.edu/mathcs/index.html' # this works
-    #url = 'google.com' # doesn't work
-    #url = 'www.cybercity.biz' # doesn't work
-    #url = 'www.mit.edu' # this one works
-    #url = 'www.sfsu.edu' #works
-    #url = 'www.yahoo.com' # doesn't work
-    #url = 'cattheory.com' # works
-    #url = 'http://abilityone.gov/' # this one works too
-    #url = 'http://www.sina.com.cn/' # this one works too!
-    #url = 'http://www.spiegel.de/' # this works
-    #url = 'http://time.com/' # this works
-    #url = 'http://www.un.org/' # this works
-    #url = 'http://www.unitetheunion.org/' # this works
-    #url = 'http://www.sueddeutsche.de/' # this works
     url = str(input("Please enter URL: "))
 
     if len(sys.argv) > 1:
