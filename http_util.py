@@ -6,7 +6,7 @@
 #
 # Nikhil Ghosh
 
-# Project modules
+# Utility functions for the main program
 import http_constants as const
 
 def parse_url(url):
