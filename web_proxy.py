@@ -149,7 +149,7 @@ class WebProxy():
             print('Came from updated response!')
             # Close connection to client
             conn.close()
-        else: # Some error
+        else: # Some error with the response code or request
             print("Problem with request... closing connection")
             conn.close()
 
