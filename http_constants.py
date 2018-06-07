@@ -3,7 +3,7 @@
 # Wesleyan University
 # COMP 332, Spring 2018
 #
-# HTTP constants
+# HTTP constants used to clean up main code
 #
 # Nikhil Ghosh
 
