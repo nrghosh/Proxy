@@ -72,12 +72,7 @@ class WebProxy():
         str_req = http_util.create_http_req(hostname, pathname)
         url = hostname + pathname
 
-####################################################################################
-        # PART 2: PROXY CACHE- store web server response
-        # PART 3: CONDITIONAL GET REQUESTS- check for cached version (304 or 200)
-####################################################################################
-
-        # add to cache if not present, append cached date to request if applicable
+        # add to cache if not present, append cached date to modify request if applicable
         if url in self.proxy_cache:
             print('********************** URL in the cache already... ********************** ')
             [temp_response, temp_date] = self.proxy_cache[url]
