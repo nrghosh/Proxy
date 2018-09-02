@@ -124,6 +124,7 @@ class WebProxy():
         print('********************** HTTP Code extraction ********************** ')
         print('Code: ', code)
 
+        # Implement caching
         if code == "304 Not Modified":
             # send encoded cached response
             reply = self.proxy_cache[url][0].encode('utf-8') # format in dict: cache[url] = [response, date]
