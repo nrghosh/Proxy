@@ -1,14 +1,8 @@
 #!/usr/bin/python3
-#
-# Wesleyan University
-# COMP 332, Spring 2018
-# Homework 3: Simple web client to interact with proxy
-#
 # Example usage:
 #
 #   python3 web_client.py <proxy_host> <proxy_port> <requested_url>
 #
-# Nikhil Ghosh
 
 # Python modules
 import binascii
@@ -64,7 +58,8 @@ def main():
     proxy_host = 'localhost'
     proxy_port = 50007
 
-# NOTE: If a date is not found, it will not be cached (you'll keep getting 200 OK responses)
+# NOTE: If a date is not found, it will not be cached, and you'll keep
+# getting 200 OK responses
     url = str(input("Please enter URL: "))
 
     if len(sys.argv) > 1:

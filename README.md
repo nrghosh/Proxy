@@ -1,5 +1,5 @@
 # Web Client and Web Proxy
-Implementing caching and conditional HTTP GET requests with a web client and proxy.
+Caching and conditional HTTP GET requests with a web client and proxy.
 
 # Directions
 - Open two terminals in a directory with web_client.py and web_proxy.py

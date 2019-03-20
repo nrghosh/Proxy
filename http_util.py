@@ -1,11 +1,4 @@
 #!/usr/bin/python3
-#
-# Wesleyan University
-# COMP 332 Spring 2018
-# Web server helper functions
-#
-# Nikhil Ghosh
-
 # Utility functions for the main program
 import http_constants as const
 
